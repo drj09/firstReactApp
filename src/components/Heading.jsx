@@ -1,3 +1,3 @@
 export default function Heading() {
-  return <h1>My favourite Book</h1>;
+  return <h1>My New favourite Book</h1>;
 }
