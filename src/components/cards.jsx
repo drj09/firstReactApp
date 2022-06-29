@@ -1,12 +1,12 @@
 export default function cards(props) {
   return (
-    <div class="card">
+    <div>
       <img src={props.imageUrl} width={250} alt="Avatar" />
-      <div class="container">
+      <div>
         <h4>
-          <b>John Doe</b>
+          <b>{props.Uname}</b>
         </h4>
-        <p>Architect & Engineer</p>
+        <p>{props.des}</p>
       </div>
     </div>
   );

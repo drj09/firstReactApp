@@ -11,7 +11,11 @@ export default function App() {
       <List />
       <p>{Pi}</p>
       <p>{doublePi}</p>
-      <Card imageUrl="https://ilinks.io/static/images/main.webp" />
+      <Card
+        imageUrl="https://ilinks.io/static/images/main.webp"
+        Uname="Dheeraj"
+        des="softrware developer"
+      />
     </div>
   );
 }
